@@ -9,7 +9,7 @@ env:
     AZURE_CONTAINER_REGISTRY: crut4pcfepvxaa6
     CHART_OVERRIDE_PATH: ./values.example.yaml
     CHART_OVERRIDES: image.repository=crut4pcfepvxaa6.azurecr.io/supabase,image.tag=${{ github.sha }}
-    CHART_PATH: ./templates
+    CHART_PATH: ./
     CLUSTER_NAME: sigstack
     CLUSTER_RESOURCE_GROUP: artificial-intelligence
     CONTAINER_NAME: supabase
